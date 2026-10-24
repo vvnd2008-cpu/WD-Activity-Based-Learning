@@ -1,7 +1,7 @@
 # WD-Activity-Based-Learning
-        Web Development Activity-Based Learning (ABL)
+       # Web Development Activity-Based Learning (ABL)
 
- #Student Details
+ # Student Details
 
 - Name : VENIGALLA VENKATA NAGADURGA
 - Roll Number: 26001052
@@ -9,9 +9,9 @@
 - Section: CSM-3
 
 
- Selected Case Studies
+ ## Selected Case Studies
 
- 1. Personal Portfolio Website
+## 1. Personal Portfolio Website
 
 A personal website that presents profile information, education, technical skills, projects, and contact details.
 ## Features
@@ -33,7 +33,7 @@ A personal website that presents profile information, education, technical skill
 
 Technologies Used: HTML, CSS
 
- 2. Online Learning Platform Interface
+## 2. Online Learning Platform Interface
 
 A website interface that displays different learning categories and online learning platforms to help users explore educational resources.
 
@@ -55,7 +55,7 @@ Technologies Used: HTML, CSS
 5. **Resource Discovery:** Provides a central place to explore learning platforms.
 
 
- 3. Adventure and Trekking Website
+ ## 3. Adventure and Trekking Website
 
 A website that presents adventure destinations, trekking activities, travel packages, safety tips, and contact information.
 ## Features
@@ -76,14 +76,14 @@ A website that presents adventure destinations, trekking activities, travel pack
 
 Technologies Used: HTML, CSS
 
-How to Run the Projects
+## How to Run the Projects
 
 1. Download or clone this repository.
 2. Open the required project folder in Visual Studio Code.
 3. Open the HTML file in a web browser or use the Live Server extension.
 4. Explore the website using its navigation links.
 
-Conclusion
+## Conclusion
 
 This Activity-Based Learning assignment helped me understand the practical implementation of web development concepts. I learned to create web pages using HTML, style them using CSS, organize website content, and develop different website interfaces.
 
