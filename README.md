@@ -2,10 +2,10 @@
 
  # Student Details
 
-**Name :** VENIGALLA VENKATA NAGADURGA
-**Roll Number:** 26001052
-**Branch:** CSM
-**Section:** CSM-3
+1. **Name :** VENIGALLA VENKATA NAGADURGA
+2. **Roll Number:** 26001052
+3. **Branch:** CSM
+4. **Section:** CSM-3
 
 
  ## Selected Case Studies
