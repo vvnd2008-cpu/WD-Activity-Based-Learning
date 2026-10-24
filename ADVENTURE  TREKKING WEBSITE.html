@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AdventureX - Adventure and Trekking</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f8f5;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #14532d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #166534;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #166534, #0891b2);
+            color: white;
+            text-align: center;
+            padding: 65px 20px;
+        }
+
+        .hero h2 {
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: #facc15;
+            color: #222;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #14532d;
+            margin-bottom: 25px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background-color: white;
+            width: 230px;
+            padding: 22px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px #cccccc;
+        }
+
+        .card h3 {
+            color: #166534;
+            margin-bottom: 10px;
+        }
+
+        .icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .packages {
+            background-color: #dcfce7;
+        }
+
+        .price {
+            color: #087f5b;
+            font-size: 22px;
+            font-weight: bold;
+            margin: 12px;
+        }
+
+        #contact a {
+            color: #087f5b;
+        }
+
+        footer {
+            background-color: #14532d;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 6px;
+            }
+
+            .hero h2 {
+                font-size: 27px;
+            }
+
+            .card {
+                width: 100%;
+                max-width: 350px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>AdventureX</h1>
+        <p>Explore Nature, Discover Adventure!</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#activities">Activities</a>
+        <a href="#packages">Packages</a>
+        <a href="#safety">Safety</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+
+        <div class="hero" id="home">
+            <h2>Welcome to Adventure World</h2>
+            <p>Discover mountains, forests, trekking trails and exciting outdoor adventures.</p>
+            <a href="#destinations" class="button">Explore Now</a>
+        </div>
+
+        <section id="destinations">
+            <h2>Popular Destinations</h2>
+
+            <div class="container">
+                <div class="card">
+                    <div class="icon">&#127956;</div>
+                    <h3>Himalayas</h3>
+                    <p>Explore beautiful mountains and exciting trekking trails.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">&#127795;</div>
+                    <h3>Western Ghats</h3>
+                    <p>Discover green forests, hills and waterfalls.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">&#127964;</div>
+                    <h3>Desert Trails</h3>
+                    <p>Experience golden sand dunes and desert scenery.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">&#127965;</div>
+                    <h3>Coastal Trails</h3>
+                    <p>Enjoy beautiful beaches and peaceful coastal views.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="activities">
+            <h2>Adventure Activities</h2>
+
+            <div class="container">
+                <div class="card">
+                    <div class="icon">&#128094;</div>
+                    <h3>Trekking</h3>
+                    <p>Walk along scenic trails and explore nature.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">&#9978;</div>
+                    <h3>Camping</h3>
+                    <p>Enjoy outdoor adventures in natural surroundings.</p>
+                </div>
+
+                <div class="card">
+                    <div class="icon">&#128692;</div>
+                    <h3>Cycling</h3>
+                    <p>Explore beautiful routes on a cycling trip.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="packages" id="packages">
+            <h2>Adventure Packages</h2>
+
+            <div class="container">
+                <div class="card">
+                    <h3>Beginner Trek</h3>
+                    <p>A one-day trekking experience.</p>
+                    <p class="price">Rs. 999</p>
+                    <a href="#contact" class="button">Enquire</a>
+                </div>
+
+                <div class="card">
+                    <h3>Camping Trip</h3>
+                    <p>A two-day camping experience.</p>
+                    <p class="price">Rs. 1999</p>
+                    <a href="#contact" class="button">Enquire</a>
+                </div>
+
+                <div class="card">
+                    <h3>Mountain Explorer</h3>
+                    <p>A three-day mountain adventure.</p>
+                    <p class="price">Rs. 3999</p>
+                    <a href="#contact" class="button">Enquire</a>
+                </div>
+            </div>
+
+            <p style="margin-top: 20px;">
+                Note: Prices are sample values for this project.
+            </p>
+        </section>
+
+        <section id="safety">
+            <h2>Adventure Safety Tips</h2>
+
+            <div class="container">
+                <div class="card">
+                    <h3>Carry Essentials</h3>
+                    <p>Bring water, food and a first-aid kit.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Follow Guides</h3>
+                    <p>Follow instructions and stay on approved trails.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Check Weather</h3>
+                    <p>Check weather conditions before your trip.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Ready for your next adventure? Contact us today!</p>
+            <p>Email: adventure@example.com</p>
+            <p>Phone: +91 98765 43210</p>
+            <p>
+                <a href="mailto:adventure@example.com">Send us an email</a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>AdventureX - Adventure and Trekking Website</p>
+        <p>Explore Nature. Discover Adventure.</p>
+        <p>Copyright 2026</p>
+    </footer>
+
+</body>
+</html>
