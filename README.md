@@ -1,5 +1,4 @@
 # WD-Activity-Based-Learning
-## Web Development Activity-Based Learning (ABL)
 
  # Student Details
 
@@ -31,13 +30,12 @@ A personal website that presents profile information, education, technical skill
 5. **Networking:** Makes contact information easily accessible.
 
 
-Technologies Used: HTML, CSS
+ **Technologies Used:** HTML, CSS
 
 ## 2. Online Learning Platform Interface
 
 A website interface that displays different learning categories and online learning platforms to help users explore educational resources.
 
-Technologies Used: HTML, CSS
 ## Features
 
 1. **Learning Categories:** Organizes learning resources by subject.
@@ -54,6 +52,7 @@ Technologies Used: HTML, CSS
 4. **Career Development:** Helps users find professional learning resources.
 5. **Resource Discovery:** Provides a central place to explore learning platforms.
 
+**Technologies Used:** HTML, CSS
 
  ## 3. Adventure and Trekking Website
 
@@ -74,7 +73,7 @@ A website that presents adventure destinations, trekking activities, travel pack
 4. **Package Comparison:** Allows visitors to compare sample packages and prices.
 5. **Enquiries:** Provides contact information for visitors who want to learn more.
 
-Technologies Used: HTML, CSS
+**Technologies Used:** HTML, CSS
 
 ## How to Run the Projects
 
