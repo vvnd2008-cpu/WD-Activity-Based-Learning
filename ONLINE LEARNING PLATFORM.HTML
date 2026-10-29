@@ -488,41 +488,5 @@
         <p>📚 LearnHub - Your Learning Journey Starts Here!</p>
         <p>© 2026 LearnHub | Learn Something New Every Day</p>
     </footer>
-
-    <!-- Simple Search Function -->
-    <script>
-        function searchCourses() {
-            const input = document.getElementById("searchInput");
-            const query = input.value.trim().toLowerCase();
-            const cards = document.querySelectorAll("#categories .card");
-            let found = 0;
-
-            cards.forEach(function(card) {
-                const text = card.innerText.toLowerCase();
-                const match = query === "" || text.includes(query);
-
-                card.style.display = match ? "" : "none";
-
-                if (match) {
-                    found++;
-                }
-            });
-
-            document.getElementById("categories").scrollIntoView();
-
-            if (found === 0) {
-                alert("No matching category found. Try coding, science, languages, or creative skills.");
-            }
-        }
-
-        document.getElementById("searchInput").addEventListener(
-            "keydown", function(event) {
-                if (event.key === "Enter") {
-                    searchCourses();
-                }
-            }
-        );
-    </script>
-
 </body>
 </html>
